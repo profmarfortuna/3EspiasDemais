@@ -1,0 +1,69 @@
+/*ESTILIZAÇÃO DA PÁGINA SOBRE.HTML*/
+
+/* Importando a fonte diretamente no HTML no <head>, não no CSS */
+nav h1 {
+    font-family:"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap" #fff; /* Use apenas o nome da fonte depois de importar */
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 44px;
+}
+
+/* Estilo para parágrafos */
+.container p {
+    font-size: 30px;
+    text-align: center;
+    border: 2px;
+    padding: 20px;
+    margin: 2px auto;
+    width: 65rem;
+    border-radius: 50px;
+    border: 2px dashed #d3ad7f;
+}
+
+
+/* Estilo para a lista dentro de .box-container */
+.box-container ul {
+    color: #d3ad7f;
+    width: 30%;
+    padding-left: 20px; /* Ajustado para valor razoável */
+    line-height: 30px;
+    margin: 0 auto; /* Centralizando a lista */
+    padding: 2rem;
+}
+
+/* Estilo para itens da lista dentro de .box-container */
+.box-container ul li b {
+    font-size: 25px;
+    color: cornsilk;
+}
+
+.box-container ul li i {
+    font-size: 24px;
+    color: #d3ad7f;
+}
+
+/* Estilo para o cabeçalho h3 */
+h3 {
+    color: cornsilk;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+/* Estilo para o texto dentro de parágrafos (p) */
+p {
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Estilo para o rodapé */
+/* Estilo para o rodapé, removendo a borda */
+.footer-bottom{
+    text-align: center;
+    padding: 30rem;
+    font-size: 1.6rem;
+    color: #fff;
+     /* Remover qualquer borda */
+}
+

@@ -1,0 +1,89 @@
+
+
+/*ESTILIZAÇÃO DA PÁGINA HTML SUPORTE*/
+    body {
+        background-color: #f0f0f0;
+        color: cornsilk;
+        transform: scale(20px);
+    }
+
+    
+    h6 {
+        color: #fff;
+        font-size: 50px;
+        text-align: left; 
+        padding: 4rem;      
+    }
+    h2 {
+        text-align:left;
+        color: #fff;
+        font-size: 50px;
+        padding: 4rem;
+    }
+    h4{
+        text-align: left;
+        color: cornsilk;
+        font-size: 30px;
+        padding: 3rem;
+    }
+    h5{
+        padding: 3rem;
+        font-size: 30px;
+        color: cornsilk;
+    }
+
+    h1 input{
+        font-size: 20px;
+    }
+
+    b{
+        padding: 3rem;
+        font-size: 30px;
+        padding-right: 40cm;
+    }
+
+
+    ul li{
+        color:#fff;
+        font-size: 30px;
+        text-align:initial;
+        list-style: circle;
+    }
+
+    h3{
+        color:#fff;
+        font-size: 30px;
+        text-align:initial;
+    }
+    
+    p{
+      color:#fff;
+     font-size: 30px;
+     text-align:initial;
+    }
+   
+    .footer-bottom p{
+        text-align: center;
+        padding: 30rem;
+        font-size: 3rem;
+        color: #fff;
+
+    }
+
+    .type{
+        font-size: 20px;
+    }
+
+    .navbar a {
+    margin: 0 2rem;
+    font-size: 37px;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+    
+    

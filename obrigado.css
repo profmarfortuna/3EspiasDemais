@@ -1,0 +1,25 @@
+body{
+    transform: scale(40px);
+    padding: 300px;
+}
+
+h2{
+    padding: 40px;
+    font-size: 70px;
+    color: cornsilk; 
+}
+p{
+    padding: 30px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.navbar{
+    padding: 10px;
+    font-size: 1px;
+    text-align: center;
+}
+.navbar p a{
+    font-size: 25px;
+}

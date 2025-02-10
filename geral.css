@@ -1,0 +1,179 @@
+hmtl, body {
+    font-family:  "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap";
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: #311a0a;
+    color: #fff;
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;   
+}
+
+:root {
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #311a0a;
+    --border: 0.1rem solid rgba(255,255,255,0.3);
+    font-size: 10px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+}
+
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.btn {
+   background-color: var(--main-color);
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    letter-spacing: 0.1rem;
+}
+
+.home-container {
+    background: url("imagens/Camada\ 0.png") no-repeat;
+    background-position: center;
+    background: cover;
+}
+ 
+.content h3{
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    padding-top: 15rem;
+}
+
+.content p{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-weight: 100;
+    line-height: 1rem;
+    padding: 3rem 0;
+    margin-top: 7rem;
+    display: inline-block;
+}
+
+.content p strong {
+    font-family: "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap";
+    color: #fff;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    display: inline-block;
+
+} 
+
+.titulo h3 {
+    color: #fff;
+    font-size: 9rem;
+}
+
+.title {
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+}
+.title span {
+    color:#d3ad7f;
+    text-transform: uppercase;
+    margin-bottom: 99rem;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    background-color: var(--black);
+    gap: 1.5rem;
+}
+
+.about .row .content p{
+    font-size: 2rem;
+    padding: 2rem;
+    color: #fff;
+    line-height: 1.8;
+}
+
+.about .row .content h3 {
+    padding: 3rem;
+    color: #fff;
+}
+.about .row .content h3 span{
+    color: #d3ad7f;
+
+}
+
+@media(max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 1.5rem 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
+}
+
+html{
+    font-size: 62.5%;
+
+    overflow-x: hidden;
+
+    scroll-padding-top: 9rem;
+   
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: #311a0a; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Adiciona 20px de espaçamento interno ao redor do conteúdo */
+    margin-top: 40px; /* Adiciona 40px de espaçamento acima do footer */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  footer p {
+    margin: 0; /* Remove qualquer margem do parágrafo */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+  }
+ body{
+    overflow: visible;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

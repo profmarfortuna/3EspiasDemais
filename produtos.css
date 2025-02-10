@@ -1,0 +1,156 @@
+/* Estilização da Página de Produtos */
+
+:root {
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #311a0a;
+    --border: 0.1rem solid rgba(255,255,255,0.3);
+}
+
+
+.products h4, h6 {
+    display: flex;
+    margin: 10px 0;
+    text-align: center;
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    margin: 2rem auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.products {
+    width: 30%; 
+    margin: 1rem; 
+    text-align: center;
+}
+
+.products h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+ul {
+    color: #fff;
+    border: solid 2px #d3ad7f;
+    border-radius: 20px;
+    padding: 20px;
+    list-style-type: none;
+    width: 45%;
+    margin: 1rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+ul li {
+    padding: 10px 0;
+    text-align: center;
+}
+
+ul h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul h6 {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: cornsilk;
+    font-size: 35px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.social {
+    margin-right: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+
+    .icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons .social {
+        margin-bottom: 10px;
+    }
+
+    .products h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo img {
+        width: 80px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+
+    .products h1 {
+        font-size: 28px;
+    }
+}
+
+
+.footer-bottom {
+    color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+    font-size: 14px; 
+    font-family: Arial, sans-serif; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; 
+}
+
+.footer-bottom p {
+    margin: 0; 
+
+}
